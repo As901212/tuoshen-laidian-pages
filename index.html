@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>脱身来电助手</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --text: #15171a;
+      --muted: #5c6470;
+      --line: #d9dde3;
+      --blue: #1458d4;
+      --bg: #f6f8fb;
+      --card: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.7;
+    }
+    main {
+      width: min(880px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 56px 0;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 32px;
+      box-shadow: 0 12px 36px rgba(20, 30, 50, 0.06);
+    }
+    h1 { margin: 0 0 12px; font-size: clamp(32px, 6vw, 48px); line-height: 1.15; }
+    h2 { margin-top: 32px; font-size: 22px; }
+    p { margin: 12px 0; }
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .muted { color: var(--muted); }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 28px;
+    }
+    .link {
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+      padding: 8px 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card">
+      <h1>脱身来电助手</h1>
+      <p class="muted">本地模拟来电工具</p>
+      <p>脱身来电助手可用于设置模拟来电人、来电倒计时、铃声、震动、来电背景、接通语音和通话界面效果。</p>
+      <p>所有来电模拟都在本机完成，不会拨打真实电话，也不会向任何联系人发送短信或消息。</p>
+      <div class="links">
+        <a class="link" href="./support.html">技术支持</a>
+        <a class="link" href="./privacy.html">隐私政策</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
